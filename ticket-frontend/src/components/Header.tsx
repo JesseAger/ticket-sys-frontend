@@ -23,7 +23,7 @@ const Header = ({ user, onLogout }: HeaderProps) => {
           {/* Logo Section */}
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/')}>
             <img 
-              src="/lovable-uploads/6b685543-9b78-4d9c-bb3b-9315f2cb6246.png" 
+              src="./public/img/logo.jpg" 
               alt="Optimum Logo" 
               className="w-12 h-12 object-contain"
             />
